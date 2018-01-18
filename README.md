@@ -26,22 +26,40 @@ If the envs on your computer can't compatible the **1: A Standalone Project**,th
 
 ### **Modification of the README.md**：
 ### (1) Protobuf:
-#### (a)Download Protobuf:
-#### Ncnn relys on Protobuf, as the auther of the Ncnn listed on the Ncnn's official site, I recommend you to use the version 3.4.0
+#### (a) Download Protobuf:
+##### Ncnn relys on Protobuf, as the auther of the Ncnn listed on the Ncnn's official site, I recommend you to use the version 3.4.0
 
   https://github.com/google/protobuf/archive/v3.4.0.zip
 
-#### (b)Build Protobuf:
-#### Unzip the resources of Protobuf, now the folder's default name is protobuf-3.4.0
-#### Use the System command prompt:cmd.exe
-#### Goto the folder"cmake"under the folder "protobuf-3.4.0", by:
+#### (b) Build Protobuf:
+##### Unzip the resources of Protobuf, now the folder's default name is protobuf-3.4.0
+##### Use the System command prompt:cmd.exe
+##### Goto the folder"cmake"under the folder "protobuf-3.4.0", by:
   
 ```
 cd YourOwnPath\protobuf-3.4.0
 cd cmake
 ```
 
-####
+##### Create a new folder called "build", by:
+
+```
+mkdir build
+cd build
+```
+
+##### Then build the Protobuf, by:
+
+```
+cmake .. -Dprotobuf_BUILD_TESTS=OFF -Dprotobuf_MSVC_STATIC_RUNTIME=OFF -G "Visual Studio 15 2017 Win64"
+```
+
+*Attention: The last param **"Visual Studio 15 2017 Win64"** is according to the Visual Studio on your computer. You need to modify it.
+
+##### Use the File Explorer to open the protobuf.sln under the YourOwnPath\protobuf-3.4.0\cmake\build
+
+##### Modify the platform to "Release" and "x64"
+
 
 
 * TBC
