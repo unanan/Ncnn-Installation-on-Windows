@@ -17,6 +17,14 @@ This project doesn't rely on the envs. All the resources of the 3rd party are in
 
 But it relys on the **VS201x v120 toolset**.
 
+----
+### 2. A Project based on Ncnn
+
+  https://github.com/moli232777144/mtcnn_ncnn/blob/master/README.md
+  
+Here is the guide to build the project. Following the guide, you can also build ncnn and protobuf as 3rd parties into the project.
+
+--
 
 
 * TBC
