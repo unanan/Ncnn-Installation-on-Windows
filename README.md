@@ -24,8 +24,11 @@ But it relys on the **VS201x v120 toolset**.
   
 If the envs on your computer can't compatible the **1: A Standalone Project**,the project listed in the above can lead you successfully. There is the guide written in **markdown** to build the project. Following the guide, you can also build ncnn and protobuf as 3rd parties into the project.
 
-#### **Translation of the README.md**：
-####
+#### **Modification of the README.md**：
+#### (1) Protobuf:
+#### Ncnn relys on Protobuf, as the auther of the Ncnn listed on the Ncnn's official site, I recommend you to use the version 3.4.0
+
+  https://github.com/google/protobuf/archive/v3.4.0.zip
 
 
 
