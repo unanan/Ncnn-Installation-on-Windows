@@ -13,7 +13,7 @@ The steps and tips of installing the ncnn+protobuf envs on Windows.
 
   https://github.com/liyemei/ncnn-windows-vs2013
   
-This project doesn't rely on the envs. All the resources of the 3rd party is included in the project.
+This project doesn't rely on the envs. All the resources of the 3rd party are included in the project.
 
 But it relys on the **VS201x v120 toolset**.
 
