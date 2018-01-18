@@ -1,4 +1,4 @@
-# Ncnn-Installation-on-Windowss
+# Ncnn-Installation-on-Windows
 The steps and tips of installing the ncnn+protobuf envs on Windows.
 
 
@@ -16,5 +16,7 @@ The steps and tips of installing the ncnn+protobuf envs on Windows.
 This project doesn't rely on the envs. All the resources of the 3rd party are included in the project.
 
 But it relys on the **VS201x v120 toolset**.
+
+
 
 * TBC
